@@ -29,11 +29,11 @@ export default function _CloseButton(props: CloseButtonTypes) {
           "mcm-close-button-unit",
           className
         )}
-        buttonSize={getPXForm(buttonSize || "15px", "15px")}
-        buttonWeight={getPXForm(buttonWeight || "1px", "1px")}
-        buttonColor={buttonColor || "black"}
+        // buttonSize={getPXForm(buttonSize || "15px", "15px")}
+        // buttonWeight={getPXForm(buttonWeight || "1px", "1px")}
+        // buttonColor={buttonColor || "black"}
         onClick={(!isDisable && onClickEvent) || undefined}
-        disable={isDisable}
+        // disable={isDisable}
         style={styles}
         type={buttonType || "submit"}
       />

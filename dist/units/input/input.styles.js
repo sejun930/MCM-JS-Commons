@@ -28,7 +28,7 @@ exports.Wrapper = styled_1.default.div(templateObject_1 || (templateObject_1 = _
     return styles;
 });
 exports.Fieldset = styled_1.default.fieldset(templateObject_2 || (templateObject_2 = __makeTemplateObject(["\n  display: none;\n  border: unset;\n  padding: 0px;\n  height: 100%;\n  margin: 0;\n\n  legend {\n    display: none;\n  }\n"], ["\n  display: none;\n  border: unset;\n  padding: 0px;\n  height: 100%;\n  margin: 0;\n\n  legend {\n    display: none;\n  }\n"])));
-exports.Items = styled_1.default.div(templateObject_3 || (templateObject_3 = __makeTemplateObject(["\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n  width: 100%;\n  height: 100%;\n  position: relative;\n  overflow: hidden;\n  border: solid 1px black;\n\n  .mcm-textArea-unit {\n    ", "\n  }\n"], ["\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n  width: 100%;\n  height: 100%;\n  position: relative;\n  overflow: hidden;\n  border: solid 1px black;\n\n  .mcm-textArea-unit {\n    ", "\n  }\n"])), function (props) {
+exports.Items = styled_1.default.div(templateObject_3 || (templateObject_3 = __makeTemplateObject(["\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n  width: 100%;\n  height: 40px;\n  position: relative;\n  overflow: hidden;\n  border: solid 1px black;\n\n  .mcm-textArea-unit {\n    ", "\n  }\n"], ["\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n  width: 100%;\n  height: 40px;\n  position: relative;\n  overflow: hidden;\n  border: solid 1px black;\n\n  .mcm-textArea-unit {\n    ", "\n  }\n"])), function (props) {
     return props.readOnly && {
         resize: "none",
     };

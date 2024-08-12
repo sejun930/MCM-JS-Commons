@@ -67,7 +67,7 @@ export const Items = styled.div`
   align-items: center;
   justify-content: space-between;
   width: 100%;
-  height: 100%;
+  height: 40px;
   position: relative;
   overflow: hidden;
   border: solid 1px black;

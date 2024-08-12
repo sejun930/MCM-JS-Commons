@@ -54,8 +54,8 @@ export default function Test() {
 
   return (
     <>
-      <_Button onClickEvent={test}>22</_Button>
-      <_Checkbox
+      {/* <_Button onClickEvent={test}>22</_Button> */}
+      {/* <_Checkbox
         inputId="aaa"
         isChecked
         onChangeEvent={() => {}}
@@ -68,9 +68,11 @@ export default function Test() {
         mouduleName="aaa"
       >
         <div>asdasd</div>
-      </_Error>
-
-      {/* <_Input inputClassName="111" isTextArea onChangeEvent={() => {}} />
+      </_Error> */}
+      <div style={{ padding: "200px" }}>
+        <_Input onChangeEvent={() => {}} />
+      </div>
+      {/* 
       <_Button onClickEvent={clickEvent}>테스트</_Button>
       <_Error errorMessage="asdasd"></_Error> */}
       {/* <_Button onClickEvent={() => {}}>222</_Button> */}

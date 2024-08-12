@@ -44,6 +44,7 @@ export const ErrorWrapper = styled.article`
   border-radius: 10px;
   display: inline-block;
   margin: 1rem;
+  background-color: white;
 
   .mcm-title-unit {
     display: inline-block;
